@@ -1,60 +1,107 @@
-  @font-face {
-    font-family: "GangwonEdu_OTFBoldA";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
-      format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  *{
-    font-family: "GangwonEdu_OTFBoldA"
-  }
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Hi+Melody&family=Nanum+Brush+Script&family=Noto+Serif+KR&family=Single+Day&display=swap");
 
-  h1{  
-    background-color: rgb(231, 206, 255);
-    text-align: center;
-  }
-  h2{
-    background-color: rgb(231, 206, 255);
-    text-align: center;
-  }
-
-  .ul1{
-    
-  }
-
-  .li1{
-    font-size: 20px;
-    border: 3px solid #f0cdff;
-    margin: 10px;
-    padding: 15px;
-    list-style: none;
-    text-align: center;
-  }
-
-  .li2{
-    
-    list-style: none;
-    text-align: center;
-    background-color: aliceblue;
-    text-decoration-style:dashed;
-    text-decoration-color: hsl(231, 60%, 56%);
-    font-size: large;
-    margin: 5px;
-  }
-button{
-  margin: 20px;
-  
-  display: block; 
-  color: white;
-  background-color: #887fcd;
-  text-decoration: none;
-  margin: 5px;
-  border-radius: 5%;
-  text-align: center;
-  justify-content: center;
+* {
+  font-family: "GangwonEdu_OTFBoldA";
+  /* font-family: 'Hi Melody', cursive; */
+  /* font-family: 'Nanum Brush Script', cursive; */
+  /* font-family: 'Noto Serif KR', serif; */
+  /* font-family: 'Single Day', cursive; */
 }
 
-button a:hover {
-  background-color: #fcfcd4;
-  color: #887fcd;
+h1 {
+  padding: 20px;
+  margin-top: 0;
+  color: white;
+  background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+  text-align: center;
+}
+/* h2 { */
+  /* background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%); */
+  /* text-align: center; */
+/* } */
+
+ul {
+  margin: 5px;
+  padding: 7px;
+}
+
+.ul1 {
+  margin: 5px;
+  padding: 7px;
+}
+
+li {
+  margin: 5px;
+  border: 3px solid #f0cdff;
+  padding: 15px;
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  /* background-color: aliceblue; */
+}
+.li1 {
+  font-size: 20px;
+  border: 3px solid #f0cdff;
+  margin: 5px;
+  padding: 15px;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: hsl(231, 60%, 56%);
+}
+
+.Mbtn{
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  font-size: 17px;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  transition: 0.25s;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  color: white;
+  border: none;
+  font-family: "Noto Serif KR", serif;
+  align-items: center;
+}
+
+button {
+  width: 20%;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  border: none;
+  font-size: 17px;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  transition: 0.25s;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  color: white;
+  font-family: "Noto Serif KR", serif;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+body {
+  text-align: center;
 }
