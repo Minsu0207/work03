@@ -22,8 +22,7 @@
     "deploy": "gh-pages -d build"
   },
   "homepage":"https://minsu0207.github.to/work03",
-  },
-  
+    
   "eslintConfig": {
     "extends": [
       "react-app",
